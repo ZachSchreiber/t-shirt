@@ -1,3 +1,25 @@
 li {
   list-style: none;
 }
+div.big-shirt {
+  height: 400px;
+  width: 400px;
+  padding-right: 50px;
+  border: 2px solid #A4D4FF;
+  position: relative;
+}
+div.refresh{
+  border-bottom: 2px solid #A4D4FF;
+  border-left: 2px solid #A4D4FF;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-bottom: 0;
+  width: 20px;
+  position: absolute;
+  bottom: 380px;
+  left: 423px;
+}
+
+.refresh {
+  color: #A4D4FF;
+}
