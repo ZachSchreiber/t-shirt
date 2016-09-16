@@ -2,9 +2,9 @@ li {
   list-style: none;
 }
 div.big-shirt {
-  height: 400px;
+  height: 350px;
   width: 400px;
-  padding-right: 50px;
+  padding: 30px 10px 30px 35px;
   border: 2px solid #A4D4FF;
   position: relative;
 }
@@ -16,10 +16,52 @@ div.refresh{
   padding-bottom: 0;
   width: 20px;
   position: absolute;
-  bottom: 380px;
-  left: 423px;
+  bottom: 389px;
+  left: 420px;
 }
 
 .refresh {
   color: #A4D4FF;
+}
+footer {
+  height: 60px;
+  width: 445px;
+  border-left: solid 2px #A4D4FF;
+  border-bottom: solid 2px #A4D4FF;
+  border-right: solid 2px #A4D4FF;
+  bottom: -30px;
+  right: 37px;
+  position: relative;
+}
+
+.icons  {
+  color: #A4D4FF;
+  position: absolute;
+
+}
+.arrows-container {
+  position: relative;
+  height: 60px;
+  width: 70px;
+  border-right: 2px solid #A4D4FF;
+}
+
+.arrows {
+  top:0;
+  left: 5px;
+  position:absolute;
+  padding: 23px 0px 20px 20px;
+}
+
+.heart {
+  top: 20px;
+  left: 110px;
+  position: absolute;
+}
+
+.shirt-size {
+  margin-left: 100px;
+}
+.boxes {
+  margin-left: 200px;
 }
