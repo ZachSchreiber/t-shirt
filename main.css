@@ -1,6 +1,4 @@
-li {
-  list-style: none;
-}
+
 img {
   height: 250px;
 }
@@ -124,10 +122,14 @@ background-color:
 
 ul {
   position: absolute;
-  font-size: 25px;
-  right: 10px;
+  font-size: 20px;
+  right: 14px;
+  top: -2px;
 }
 
+li {
+  list-style: none;
+}
 .shirt {
   top: -3px;
   right: 22px;
@@ -140,7 +142,7 @@ ul {
   height: 200px;
   width: 62px;
   border: 3px solid #A4D4FF;
-  bottom: 60px;
+  bottom: 62px;
   transition: all .4s ease-out;
   transform-origin: bottom right;
   opacity: 0;
@@ -180,7 +182,7 @@ ul {
   width: 62px;
   background: white;
   border: 3px solid #A4D4FF;
-  bottom: 60px;
+  bottom: 63px;
   transition: all .4s ease-out;
   transform-origin: bottom right;
   opacity: 0;
@@ -194,7 +196,7 @@ ul {
 
 .cart-container {
   position: relative;
-  bottom: 167px;
+  bottom: 165px;
   left: 251px;
   height: 42px;
   width: 59px;
