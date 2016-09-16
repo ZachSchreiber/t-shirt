@@ -37,6 +37,7 @@ img {
 .refresh:hover {
   background-color:
   #A4D4FF;
+  color: white;
 }
 
 .refresh {
@@ -62,6 +63,7 @@ footer {
 .arrows-container:hover{
   background-color:
   #A4D4FF;
+  color: white;
 }
 
 .arrows-container {
@@ -80,8 +82,8 @@ footer {
 }
 
 .heart-container:hover {
-background-color:
-#A4D4FF;
+background-color: #A4D4FF;
+color: white;
 }
 
 .heart-container{
@@ -100,8 +102,8 @@ background-color:
 }
 
 .shirt-container:hover {
-  background-color:
-  #A4D4FF;
+  background-color: #A4D4FF;
+  color: white;
 }
 .shirt-container:hover .little-container {
   opacity: 1;
@@ -123,7 +125,7 @@ background-color:
 ul {
   position: absolute;
   font-size: 20px;
-  right: 14px;
+  /*right: 14px;*/
   top: -2px;
 }
 
@@ -142,16 +144,39 @@ li {
   height: 200px;
   width: 62px;
   border: 3px solid #A4D4FF;
-  bottom: 62px;
+  bottom: 59px;
   transition: all .4s ease-out;
   transform-origin: bottom right;
   opacity: 0;
   visibility: hidden;
-
 }
-.box-container:hover{
-  background-color:
-  #A4D4FF;
+.little-container .triangle-dowm{
+position: absolute;
+top: 200px;
+left: 25px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 7.5px 0 7.5px;
+border-color:  #ffffff transparent transparent transparent;
+}
+
+.shirt-list{
+  padding: 0;
+  margin: 0;
+  height: 62px;
+  width: 62px;
+  background-color: white;
+}
+.shirt-list li {
+  float: left;
+  font-size: 25px;
+  margin-top: 2px;
+  margin-left: 6px;
+}
+.box:hover{
+  background-color:  #A4D4FF;
+
 }
 .box-container{
   position: relative;
@@ -160,7 +185,16 @@ li {
   height: 42px;
   width: 63px;
   border-right: 3px solid #A4D4FF;
-
+}
+.box-container .triangle-dowm {
+  position: absolute;
+  top: 62px;
+  left: 23px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 7.5px 0 7.5px;
+  border-color:  red transparent transparent transparent;
 }
 
 .box {
@@ -177,21 +211,35 @@ li {
 }
 
 .boxes-container {
+  overflow: hidden;
   position: absolute;
   height: 62px;
   width: 62px;
   background: white;
   border: 3px solid #A4D4FF;
-  bottom: 63px;
+  bottom: 60px;
   transition: all .4s ease-out;
   transform-origin: bottom right;
   opacity: 0;
   visibility: hidden;
 }
+.colors-list  {
+  padding: 0;
+  margin: 0;
+  height: 62px;
+  width: 62px;
+  background-color: white;
+   }
 
+.colors-list li {
+  float: left;
+  font-size: 25px;
+  margin-top: 2px;
+  margin-left: 6px;
+}
 .cart-container:hover{
-  background-color:
-  #A4D4FF;
+  background-color: #A4D4FF;
+  color: white;
 }
 
 .cart-container {
