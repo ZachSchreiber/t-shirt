@@ -36,6 +36,11 @@ img {
   left: 285px;
 }
 
+.refresh:hover {
+  background-color:
+  #A4D4FF;
+}
+
 .refresh {
   color: #A4D4FF;
 }
@@ -70,7 +75,7 @@ footer {
 }
 
 .arrows {
-  bottom: -5px;
+  bottom: -9px;
   left: 2px;
   position:absolute;
   padding: 23px 0px 20px 20px;
@@ -100,6 +105,13 @@ background-color:
   background-color:
   #A4D4FF;
 }
+.shirt-container:hover .little-container {
+  opacity: 1;
+  visibility: visible;
+  left: 0;
+  transform: translate(0px, 15px);
+}
+
 
 .shirt-container {
   position: relative;
@@ -108,7 +120,12 @@ background-color:
   height: 42px;
   width: 65px;
   border-right: 3px solid #A4D4FF;
+}
 
+ul {
+  position: absolute;
+  font-size: 25px;
+  right: 10px;
 }
 
 .shirt {
@@ -116,6 +133,19 @@ background-color:
   right: 22px;
   position: absolute;
   padding: 0;
+}
+.little-container{
+  position: absolute;
+  background: white;
+  height: 200px;
+  width: 62px;
+  border: 3px solid #A4D4FF;
+  bottom: 60px;
+  transition: all .4s ease-out;
+  transform-origin: bottom right;
+  opacity: 0;
+  visibility: hidden;
+
 }
 .box-container:hover{
   background-color:
@@ -128,6 +158,7 @@ background-color:
   height: 42px;
   width: 63px;
   border-right: 3px solid #A4D4FF;
+
 }
 
 .box {
@@ -135,6 +166,25 @@ background-color:
   left: 27px;
   position: absolute;
 
+}
+.box-container:hover .boxes-container{
+  opacity: 1;
+  visibility: visible;
+  left: 0;
+  transform: translate(0px, 15px);
+}
+
+.boxes-container {
+  position: absolute;
+  height: 62px;
+  width: 62px;
+  background: white;
+  border: 3px solid #A4D4FF;
+  bottom: 60px;
+  transition: all .4s ease-out;
+  transform-origin: bottom right;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .cart-container:hover{
@@ -144,7 +194,7 @@ background-color:
 
 .cart-container {
   position: relative;
-  bottom: 165px;
+  bottom: 167px;
   left: 251px;
   height: 42px;
   width: 59px;
