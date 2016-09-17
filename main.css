@@ -1,4 +1,44 @@
+.all-shirts{
+  position: absolute;
+  top: 30px;
+}
 
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 300px;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  left: 10px;
+  bottom: 10px;
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+}
 img {
   height: 250px;
 }
@@ -149,6 +189,7 @@ li {
   transform-origin: bottom right;
   opacity: 0;
   visibility: hidden;
+  z-index: 2;
 }
 .little-container .triangle-dowm{
 position: absolute;
@@ -171,11 +212,18 @@ border-color:  #ffffff transparent transparent transparent;
 .shirt-list li {
   float: left;
   font-size: 25px;
-  margin-top: 2px;
+  margin-top: 0;
   margin-left: 6px;
+  height: 40px;
 }
-.box:hover{
-  background-color:  #A4D4FF;
+
+.box-container:hover{
+  background-color: #A4D4FF ;
+  color: #ffffff
+}
+.box:hover {
+  color: #A4D4FF;
+  border: 1px solid white;
 
 }
 .box-container{
@@ -186,18 +234,9 @@ border-color:  #ffffff transparent transparent transparent;
   width: 63px;
   border-right: 3px solid #A4D4FF;
 }
-.box-container .triangle-dowm {
-  position: absolute;
-  top: 62px;
-  left: 23px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 7.5px 0 7.5px;
-  border-color:  red transparent transparent transparent;
-}
 
 .box {
+  margin: 0;
   top: 12px;
   left: 27px;
   position: absolute;
@@ -208,6 +247,10 @@ border-color:  #ffffff transparent transparent transparent;
   visibility: visible;
   left: 0;
   transform: translate(0px, 15px);
+}
+.box-container:hover .box {
+  color: white;
+  padding: 0;
 }
 
 .boxes-container {
@@ -222,6 +265,7 @@ border-color:  #ffffff transparent transparent transparent;
   transform-origin: bottom right;
   opacity: 0;
   visibility: hidden;
+  z-index: 2;
 }
 .colors-list  {
   padding: 0;
@@ -237,7 +281,8 @@ border-color:  #ffffff transparent transparent transparent;
   margin-top: 2px;
   margin-left: 6px;
 }
-.cart-container:hover{
+
+.cart-container:hover {
   background-color: #A4D4FF;
   color: white;
 }
