@@ -1,3 +1,8 @@
+p {
+  color: #A4D4FF;
+  margin-top: 0px;
+}
+
 .all-shirts{
   position: absolute;
   top: 30px;
@@ -84,11 +89,8 @@ img {
   color: #A4D4FF;
 }
 footer {
-  height: 45px;
+  height: 90px;
   width: 310px;
-  border-left: solid 3px #A4D4FF;
-  border-bottom: solid 3px #A4D4FF;
-  border-right: solid 3px #A4D4FF;
   margin: 0;
   bottom: 5px;
   right: 0;
@@ -96,6 +98,7 @@ footer {
 }
 
 .icons  {
+
   color: #A4D4FF;
   position: absolute;
   margin: 0;
@@ -111,6 +114,8 @@ footer {
   top: 3px;
   height: 42px;
   width: 60px;
+  border-left: 3px solid #A4D4FF;
+  border-bottom:  3px solid #A4D4FF;
   border-right: 3px solid #A4D4FF;
 }
 
@@ -129,10 +134,11 @@ color: white;
 .heart-container{
   position: relative;
   margin: 0;
-  bottom: 39px;
-  left: 60px;
+  bottom: 42px;
+  left: 66px;
   height: 42px;
-  width: 60px;
+  width: 57px;
+  border-bottom:  3px solid #A4D4FF;
   border-right: 3px solid #A4D4FF;
 }
 .heart {
@@ -155,10 +161,11 @@ color: white;
 
 .shirt-container {
   position: relative;
-  bottom: 80px;
-  left: 120px;
-  height: 42px;
-  width: 65px;
+  bottom: 85px;
+  left: 125px;
+  height: 40px;
+  width: 62px;
+  border-bottom:  3px solid #A4D4FF;
   border-right: 3px solid #A4D4FF;
 }
 
@@ -173,7 +180,7 @@ li {
   list-style: none;
 }
 .shirt {
-  top: -3px;
+  top: 13px;
   right: 22px;
   position: absolute;
   padding: 0;
@@ -184,7 +191,7 @@ li {
   height: 200px;
   width: 62px;
   border: 3px solid #A4D4FF;
-  bottom: 59px;
+  bottom: 57px;
   transition: all .4s ease-out;
   transform-origin: bottom right;
   opacity: 0;
@@ -228,10 +235,11 @@ border-color:  #ffffff transparent transparent transparent;
 }
 .box-container{
   position: relative;
-  bottom: 121px;
-  left: 185px;
-  height: 42px;
+  bottom: 128px;
+  left: 190px;
+  height: 40px;
   width: 63px;
+  border-bottom:  3px solid #A4D4FF;
   border-right: 3px solid #A4D4FF;
 }
 
@@ -260,7 +268,7 @@ border-color:  #ffffff transparent transparent transparent;
   width: 62px;
   background: white;
   border: 3px solid #A4D4FF;
-  bottom: 60px;
+  bottom: 58px;
   transition: all .4s ease-out;
   transform-origin: bottom right;
   opacity: 0;
@@ -302,10 +310,13 @@ border-color: #fff transparent transparent transparent;
 
 .cart-container {
   position: relative;
-  bottom: 165px;
-  left: 251px;
+  bottom: 173px;
+  left: 255px;
   height: 42px;
-  width: 59px;
+  width: 58px;
+  border-right:  3px solid #A4D4FF;
+  border-bottom:  3px solid #A4D4FF;
+
 
 }
 
@@ -325,6 +336,7 @@ button{
   border: #A4D4FF;
   color: #A4D4FF;
 }
+
 button:hover {
   background: #A4D4FF;
   color: #fff
@@ -333,10 +345,23 @@ button:hover {
 .info {
   position: absolute;
   overflow: hidden;
-  top: 48px;
+  top: 53px;
   height: 50px;
   width: 313px;
 }
 .shirt-name {
+  margin: 0;
+  font-size: 25px;
+  position: relative;
+  left: 13px;
+  height: 45px;
   width: 138;
+  float: left;
+}
+.price {
+  font-size: 25px;
+  position: relative;
+  right: 60px;
+  width: 138;
+  float: right
 }
