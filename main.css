@@ -4,7 +4,6 @@ p {
 }
 
 .all-shirts{
-  position: absolute;
   top: 30px;
 }
 
@@ -54,6 +53,7 @@ img {
 }
 
 .shirt-menu{
+  width: 319px;
   float: left;
   margin-left: 30px;
 
